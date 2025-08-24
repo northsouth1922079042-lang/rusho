@@ -1,10 +1,33 @@
 import React from 'react';
+import HeroSection from '../app/components/HeroSection';
+import AboutSection from '../app/components/AboutSection';
+import PublicationsSection from '../app/components/PublicationsSection';
+import ExperienceSection from '../app/components/ExperienceSection';
+import SkillsSection from '../app/components/SkillsSection';
+import AwardsSection from '../app/components/AwardsSection';
+import ContactSection from '../app/components/ContactSection';
+import Navigation from '../app/components/Navigation';
+import ParticleBackground from '../app/components/ParticleBackground';
+import { ThemeProvider } from '../app/components/ThemeProvider';
+import '../app/globals.css';
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center">
-      <p>Start prompting (or editing) to see magic happen :)</p>
-    </div>
+    <ThemeProvider>
+      <div className="relative">
+        <ParticleBackground />
+        <Navigation />
+        <main id="main-content">
+          <HeroSection />
+          <AboutSection />
+          <PublicationsSection />
+          <ExperienceSection />
+          <SkillsSection />
+          <AwardsSection />
+          <ContactSection />
+        </main>
+      </div>
+    </ThemeProvider>
   );
 }
 
