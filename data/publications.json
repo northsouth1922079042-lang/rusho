@@ -1,0 +1,43 @@
+[
+  {
+    "title": "Quantum Frontier: The revolutionary impact of Human–Quantum Computer Interaction (HQCI) on enhancing web services",
+    "authors": ["Maher Ali Rusho", "Mehadi Hasan"],
+    "venue": "OSF (Preprint, DOI)",
+    "year": 2024,
+    "type": "Preprint",
+    "links": {
+      "doi": "https://doi.org/10.17605/OSF.IO/E23JR",
+      "pdf": "",
+      "publisher": "https://osf.io/e23jr/resources"
+    },
+    "thumbnail": "/papers/hqci.jpg",
+    "featured": true,
+    "abstract": "Concept note introducing HQCI for scalable, individualized UX atop quantum principles."
+  },
+  {
+    "title": "Quantum Frontier (ResearchGate record)",
+    "authors": ["Maher Ali Rusho", "Mehadi Hasan", "Mohammad Hasibur Rahman"],
+    "venue": "ResearchGate",
+    "year": 2024,
+    "type": "Preprint",
+    "links": {
+      "publisher": "https://www.researchgate.net/publication/381408436_Quantum_Frontier_The_revolutionary_impact_of_Quantum_Human-Computer_Interaction_QHCI_on_enhancing_web_services"
+    },
+    "thumbnail": "/papers/hqci-rg.jpg",
+    "featured": true,
+    "abstract": "Project page for the HQCI initiative with supplementary materials."
+  },
+  {
+    "title": "Introduction to Rusho's Transform Lakshmann and Smith Model: A Machine Learning Approach to Earthquake Detection",
+    "authors": ["Maher Ali Rusho"],
+    "venue": "International Journal of Sciences (listing)",
+    "year": 2023,
+    "type": "Journal",
+    "links": {
+      "publisher": "https://www.researchgate.net/scientific-contributions/Maher-Ali-RUsho-2225731851"
+    },
+    "thumbnail": "/papers/earthquake.jpg",
+    "featured": false,
+    "abstract": "Listing page for earthquake ML framework; attach PDF/DOI when available."
+  }
+]
